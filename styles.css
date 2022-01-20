@@ -1,0 +1,46 @@
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+  background-image: no-repeat
+    url("https://images.unsplash.com/photo-1635095610883-6cb929904241?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80");
+}
+
+h1 {
+  text-align: center;
+}
+#add {
+  margin-left: 10px;
+  height: 3rem;
+  width: 4rem;
+  justify-content: center;
+}
+#add:hover {
+  background-color: black;
+  border: none;
+  color: grey;
+  transition: background-color 1s;
+}
+
+li {
+  margin-left: 10px;
+
+  /* margin-bottom: 1 rem; */
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+a:hover {
+  color: black;
+}
+.dlt {
+  width: 1rem;
+  height: 1 rem;
+  margin-left: 8px;
+}
+.dlt:hover {
+  margin-bottom: 4px;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
